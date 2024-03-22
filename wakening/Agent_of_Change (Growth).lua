@@ -1,6 +1,6 @@
 local aoc_raid = {
     expedition = { name="Plane of Growth", min_players=1, max_players=72},
-    instance   = { zone="growthplane", version=0, duration=eq.seconds("8h") }, -- zone lasts 8 hours
+    instance   = { zone="growthplane", version=0, duration=eq.seconds("7d") }, -- zone lasts 7days
     safereturn = { zone="wakening", x=-1044.07, y=507.97, z=-164.68, h=227.0 }, --outside portal
     zonein     = { x=3016.00, y=-2522.00, z=-20.10, h=260 },
 }

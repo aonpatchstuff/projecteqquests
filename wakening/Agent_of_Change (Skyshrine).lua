@@ -1,8 +1,8 @@
 local aoc_raid = {
     expedition = { name="Skyshrine", min_players=1, max_players=72},
-    instance   = { zone="skyshrine", version=0, duration=eq.seconds("8h") }, -- zone lasts 8 hours
-    safereturn = { zone="wakening", x=4499.86, y=1487.36, z=-57.38, h=227.0 }, --outside portal
-    zonein     = { x=-1111.50, y=1233.49, z=379.22, h=13.5 },
+    instance   = { zone="skyshrine", version=0, duration=eq.seconds("7d") }, -- zone lasts 7days
+    safereturn = { zone="wakening", x=4499.86, y=1487.36, z=-57.38, h=227.0 }, 
+    zonein     = { x=1200.20, y=1214.37, z=3.75, h=13.5 }, --past maze at armor quest room since maze teleports take outside instance
 }
 
 function event_say(e)

@@ -1,7 +1,7 @@
 local aoc_raid = {
     expedition = { name="Sleepers Tomb", min_players=1, max_players=72},
-    instance   = { zone="sleeper", version=0, duration=eq.seconds("8h") }, -- zone lasts 8 hours
-    safereturn = { zone="eastwastes", x=130.77, y=-7448.90, z=163.28, h=227.0 }, --outside portal
+    instance   = { zone="sleeper", version=0, duration=eq.seconds("7d") }, -- zone lasts 7days
+    safereturn = { zone="eastwastes", x=130.77, y=-7448.90, z=163.28, h=227.0 }, 
     zonein     = { x=0, y=0, z=5.62, h=260 },
 }
 
